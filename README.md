@@ -30,6 +30,8 @@ https://docs.google.com/spreadsheets/d/1qpCGKQe1nXdEB18FjAw5xvyuGp2dEQqrv6jw8nJY
   8. Go back to the Azure terminal and clone your repo by running
         `git clone<yoursshkey>`
       ![git clone](./screenshots/git_clone.PNG)
+      
+      ![create_virtual_enviroment](./screenshots/create_virtual_enviroment.PNG)
    10. cd into your repo and you are ready for the next steps.
  
  ### Project Scaffolding - 
@@ -43,7 +45,81 @@ https://docs.google.com/spreadsheets/d/1qpCGKQe1nXdEB18FjAw5xvyuGp2dEQqrv6jw8nJY
    1. First we need to do a local test to ensure that everything works. Once the scaffolding files are created, run `make all` on the azure terminal.
    2. This triggers the install, lint and test steps outlined in the makefile. (all the steps should pass)
    
-      ![make_all-screenshot](https://user-images.githubusercontent.com/41089682/111541573-aae83980-873e-11eb-9d0b-50382827ea9e.PNG)
+      '''
+      .ci-cd-pipeline) miroslav@Azure:~/clouddrive$ ls
+      azure_CI_CD_pipline
+      (.ci-cd-pipeline) miroslav@Azure:~/clouddrive$ cd azure_CI_CD_pipline/
+      (.ci-cd-pipeline) miroslav@Azure:~/clouddrive/azure_CI_CD_pipline$ ls
+      hello.py  Makefile  README.md  requirements.txt  screenshots  test_hello.py
+      (.ci-cd-pipeline) miroslav@Azure:~/clouddrive/azure_CI_CD_pipline$ make all
+      pip install --upgrade pip &&\
+              pip install -r requirements.txt
+      Cache entry deserialization failed, entry ignored
+      Collecting pip
+        Using cached https://files.pythonhosted.org/packages/fe/ef/60d7ba03b5c442309ef42e7d69959f73aacccd0d86008362a681c4698e83/pip-21.0.1-py3-none-any.whl
+      Installing collected packages: pip
+        Found existing installation: pip 18.1
+          Uninstalling pip-18.1:
+            Successfully uninstalled pip-18.1
+      Successfully installed pip-21.0.1
+      Collecting pylint
+        Using cached pylint-2.7.4-py3-none-any.whl (346 kB)
+      Collecting pytest
+        Using cached pytest-6.2.2-py3-none-any.whl (280 kB)
+      Collecting astroid<2.7,>=2.5.2
+        Using cached astroid-2.5.2-py3-none-any.whl (222 kB)
+      Collecting mccabe<0.7,>=0.6
+        Using cached mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+      Collecting toml>=0.7.1
+        Using cached toml-0.10.2-py2.py3-none-any.whl (16 kB)
+      Collecting isort<6,>=4.2.5
+        Using cached isort-5.8.0-py3-none-any.whl (103 kB)
+      Collecting lazy-object-proxy>=1.4.0
+        Using cached lazy_object_proxy-1.6.0-cp37-cp37m-manylinux1_x86_64.whl (55 kB)
+      Collecting typed-ast<1.5,>=1.4.0
+        Using cached typed_ast-1.4.2-cp37-cp37m-manylinux1_x86_64.whl (743 kB)
+      Collecting wrapt<1.13,>=1.11
+        Using cached wrapt-1.12.1.tar.gz (27 kB)
+      Collecting attrs>=19.2.0
+        Using cached attrs-20.3.0-py2.py3-none-any.whl (49 kB)
+      Collecting pluggy<1.0.0a1,>=0.12
+        Using cached pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+      Collecting importlib-metadata>=0.12
+        Using cached importlib_metadata-3.10.0-py3-none-any.whl (14 kB)
+      Collecting iniconfig
+        Using cached iniconfig-1.1.1-py2.py3-none-any.whl (5.0 kB)
+      Collecting packaging
+        Using cached packaging-20.9-py2.py3-none-any.whl (40 kB)
+      Collecting py>=1.8.2
+        Using cached py-1.10.0-py2.py3-none-any.whl (97 kB)
+      Collecting zipp>=0.5
+        Using cached zipp-3.4.1-py3-none-any.whl (5.2 kB)
+      Collecting typing-extensions>=3.6.4
+        Using cached typing_extensions-3.7.4.3-py3-none-any.whl (22 kB)
+      Collecting pyparsing>=2.0.2
+        Using cached pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+      Using legacy 'setup.py install' for wrapt, since package 'wheel' is not installed.
+      Installing collected packages: zipp, typing-extensions, wrapt, typed-ast, pyparsing, lazy-object-proxy, importlib-metadata, toml, py, pluggy, packaging, mccabe, isort, iniconfig, attrs, astroid, pytest, pylint
+          Running setup.py install for wrapt ... done
+      Successfully installed astroid-2.5.2 attrs-20.3.0 importlib-metadata-3.10.0 iniconfig-1.1.1 isort-5.8.0 lazy-object-proxy-1.6.0 mccabe-0.6.1 packaging-20.9 pluggy-0.13.1 py-1.10.0 pylint-2.7.4 pyparsing-2.4.7 pytest-6.2.2 toml-0.10.2 typed-ast-1.4.2 typing-extensions-3.7.4.3 wrapt-1.12.1 zipp-3.4.1
+      pylint --disable=R,C,E1120,W0613 hello.py
+
+      --------------------------------------------------------------------
+      Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+      python -m pytest -vv test_hello.py
+      ========================================================= test session starts =========================================================
+      platform linux -- Python 3.7.3, pytest-6.2.2, py-1.10.0, pluggy-0.13.1 -- /home/miroslav/.ci-cd-pipeline/bin/python
+      cachedir: .pytest_cache
+      rootdir: /usr/csuser/clouddrive/azure_CI_CD_pipline
+      collected 1 item
+
+      test_hello.py::test_hello_subtract PASSED                                                                                       [100%]
+
+      ========================================================== 1 passed in 1.01s ==========================================================
+      (.ci-cd-pipeline) miroslav@Azure:~/clouddrive/azure_CI_CD_pipline$
+      '''
+
       
   #### Continuous Integration - Github Actions
   Ensure that you track all the changes to your github repo by running `git status`, `git add .`, `git commit -m "message"` and `git push`.
@@ -53,7 +129,7 @@ https://docs.google.com/spreadsheets/d/1qpCGKQe1nXdEB18FjAw5xvyuGp2dEQqrv6jw8nJY
   2. This creates a yml code which you can edit yourself
   3. Push the changes to Github - navigate back to your repo , then select Actions again and the github workflow should now appear - click on it and select the yml file.
   4. Then click on 'build' and this should run to verify the lint and test steps pass.
-    ![github-actions-screenshot](https://user-images.githubusercontent.com/41089682/111696334-324ab100-8802-11eb-8a35-c862232efbea.PNG)
+    ![pythonapp_build](./screenshots/pythonapp_build.PNG)
     
   ### Create Badge  
    You can create a status badge as well by selecting the create badge option, copy and paste the link to your readme. 
