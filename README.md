@@ -29,9 +29,9 @@ https://docs.google.com/spreadsheets/d/1qpCGKQe1nXdEB18FjAw5xvyuGp2dEQqrv6jw8nJY
   7. Now you can do a git clone of the repo - hover over to your repo and click the code icon, select SSH and copy the SSH clone. 
   8. Go back to the Azure terminal and clone your repo by running
         `git clone<yoursshkey>`
-      ![git clone](./screenshots/git_clone.PNG)
+      ![git_clone_create_venv](./screenshots/git_clone_create_venv.PNG)
       
-      ![create_virtual_enviroment](./screenshots/create_virtual_enviroment.PNG)
+      
    10. cd into your repo and you are ready for the next steps.
  
  ### Project Scaffolding - 
