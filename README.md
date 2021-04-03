@@ -59,10 +59,7 @@ https://docs.google.com/spreadsheets/d/1qpCGKQe1nXdEB18FjAw5xvyuGp2dEQqrv6jw8nJY
   4. Then click on 'build' and this should run to verify the lint and test steps pass.
     ![pythonapp_build](./screenshots/pythonapp_build.PNG)
     
-  ### Create Badge  
-   You can create a status badge as well by selecting the create badge option, copy and paste the link to your readme. 
-    [![Python application test with Github Actions](https://github.com/miriamwanjo/Udacity-Azure-CI-CD-Pipeline/actions/workflows/main.yml/badge.svg)](https://github.com/miriamwanjo/Udacity-Azure-CI-CD-Pipeline/actions/workflows/main.yml)
-    
+     
   ### Continuous Delivery - Azure Pipelines & Azure App Service
    1. On the Azure portal, navigate to Azure Devops organizations, and create a new project, under service connection ensure that its connected to your subscription and       resource group. 
    2. On the Azure terminal, create an app service and deploy your app:
