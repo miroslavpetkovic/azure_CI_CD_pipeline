@@ -14,7 +14,7 @@ https://docs.google.com/spreadsheets/d/1qpCGKQe1nXdEB18FjAw5xvyuGp2dEQqrv6jw8nJY
 ## Instructions
 ### Setting up the Azure Cloud Shell
   1. Create a Github Repo and initialize it with a READMe file and add a gitignore for python and ensure it is integrated with Azure Pipelines. 
-  - ![azure-cloud-shell-clone][/screenshots/create_repository.PNG]
+  - ![Create Repository](./Screenshots/create_repository.PNG)*Create Repository*
   
   2. Go to the Azure portal and open a terminal. 
   3. Create and activate a python virtual environment by running:
