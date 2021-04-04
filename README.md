@@ -62,28 +62,26 @@ https://docs.google.com/spreadsheets/d/1qpCGKQe1nXdEB18FjAw5xvyuGp2dEQqrv6jw8nJY
    #### Continuous Delivery - Azure Pipelines & Azure App Service
 
    1. Set up a python virtual environment and activate it.  In this this example it's named 'cicd'.  
-   ![venv](images/Screenshot-venv.png)
+   ![venv](./screenshots/create_virtual_enviroment.PNG)
 
    2 Build the project.
    ```bash
    cd udacity-cicd-pipeline
    make all
    ```
-  ![venv](images/Screenshot-make-all.png)
+  ![venv](./screenshots/make_all_flesk)
 
    3. Run the microservice 'locally' (i.e. in the Cloud Shell).
-   ![Service Running Locally](images/Screenshot-local-service.png)
-   Open a second console and run `curl localhost:5000`.  The microservice should respond with some HTML.
-   ![Test service](images/Screenshot-curl.png)
-
+   ![Service Running Locally](./screenshots/run_microsevice.PNG)
+   
     4. Deploy, run and test the microservice in Azure App Services.  
    This will make it available over the internet.  Equally important, it will implicitly create a VM.  In a moment, this will become the target for the CD pipeline to deploy its content _to_.
     1. Back in the main Cloud Shell, `export FLASK_APP=app.py`, so flask knows what to run in the Azure App.
     2. Pick a name for your microservice.  This name will appear in the publicly available URL.
     3. Replace `<yourappname>` in `make_predict_azure_app.sh`
     4. Create the resource group and VM, upload the contents of the current directory and launch flask with `az webapp up`.  You will use the name for this command as well.  (here it's `udacity-flask-ml-service`)
-    ![App Service](images/Screenshot-app-service1.png)
-    ![App Service](images/Screenshot-app-service2.png)
+    ![App Service](./screenshots/create_flesk_page_1.png)
+    ![App Service](./screenshots/web_page.png)
 
    Check(list):**  `az webapp up` did quite a few things behind the scenes, so there are a few things to check for
     - The output contains the message `You can launch the app at ...`
@@ -94,10 +92,10 @@ https://docs.google.com/spreadsheets/d/1qpCGKQe1nXdEB18FjAw5xvyuGp2dEQqrv6jw8nJY
    5. In the second command window, tail the logs of the running Azure App with `azure webapp log tail`, e.g.
 
    ```bash
-   az webapp log tail --resource-group PaulWilliams_Redmond_rg_Linux_centralus -n udacity-flask-ml-service
+   az webapp log tail --resource-group miroslavpetkovic_rg_Linux_westeurope -n udacity-flask-ml-service-miroslavpetkovic
    ```
    Check:** Back in the main Cloud Shell, run `./make_predict_azure_app.sh`.  The request should be logged in the second Cloud Shell.
-   ![](images/Screenshot-log-tail1.png)
+   ![](./screenshots/web_logs)
 
 ## Demo 
 
