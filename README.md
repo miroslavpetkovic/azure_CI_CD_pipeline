@@ -6,7 +6,7 @@ This project details steps for building a Github repository and creating an appl
 The first step is to create a project plan detailing what the tasks are, goals, deadlines, level of difficulty for each task, the person who is responsible for each task etc. This is essential for tracking tasks and making sure that each outlined task is completed in a timely manner in order to ensure completion of all tasks by the target completion date. 
 
 * A link to a Trello board for this project
- https://trello.com/b/rBTAIP7Q/build-a-ci-cd-pipeline-project
+https://trello.com/b/Kb08gLQl/cloud-devops-using-microsoft-azure-ci-cd-pipeline
 
 * A link to a spreadsheet that includes the original and final project plan>
 https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/blob/main/project-management-Miroslav%20P.xlsx
