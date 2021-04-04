@@ -9,7 +9,7 @@ The first step is to create a project plan detailing what the tasks are, goals, 
  https://trello.com/b/rBTAIP7Q/build-a-ci-cd-pipeline-project
 
 * A link to a spreadsheet that includes the original and final project plan>
-https://docs.google.com/spreadsheets/d/1qpCGKQe1nXdEB18FjAw5xvyuGp2dEQqrv6jw8nJYfxs/edit?usp=sharing
+https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/blob/main/project-management-Miroslav%20P.xlsx
 
 ## Instructions
 ### Setting up the Azure Cloud Shell
