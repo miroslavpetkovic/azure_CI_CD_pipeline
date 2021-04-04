@@ -61,12 +61,12 @@ https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/blob/main/project-manag
     
    #### Continuous Delivery - Azure Pipelines & Azure App Service
 
-   1. Set up a python virtual environment and activate it.  In this this example it's named 'cicd'.  
-   ![venv](./screenshots/create_virtual_enviroment.PNG)
+   1. Set up a python virtual environment and activate it.  In this this example it's named 'cicd-pipeline-web'.  
+   ![venv](./screenshots/create_virtual_enviroment2.PNG)
 
    2 Build the project.
    ```bash
-   cd udacity-cicd-pipeline
+   cd flask-sklearn
    make all
    ```
   ![venv](./screenshots/make_all_flesk.PNG)
