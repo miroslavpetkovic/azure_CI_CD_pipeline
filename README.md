@@ -96,6 +96,20 @@ https://docs.google.com/spreadsheets/d/1qpCGKQe1nXdEB18FjAw5xvyuGp2dEQqrv6jw8nJY
    ```
    Check:** Back in the main Cloud Shell, run `./make_predict_azure_app.sh`.  The request should be logged in the second Cloud Shell.
    ![](./screenshots/web_logs.PNG)
+   
+   #### Load test an application using Locust (swarm the target website from localhost)
+
+
+   - Running `pip install locust` to install `locust`
+   - Open browser and go to [http://localhost:8089/](http://localhost:8089/)
+    
+     ![](./screenshots/locust1.PNG)
+     
+     ![](./screenshots/locust_2.PNG)
+     
+     ![](./screenshots/locust_3.PNG)
+     
+
 
 ## Demo 
 
