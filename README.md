@@ -69,7 +69,7 @@ https://docs.google.com/spreadsheets/d/1qpCGKQe1nXdEB18FjAw5xvyuGp2dEQqrv6jw8nJY
    cd udacity-cicd-pipeline
    make all
    ```
-  ![venv](./screenshots/make_all_flesk)
+  ![venv](./screenshots/make_all_flesk.PNG)
 
    3. Run the microservice 'locally' (i.e. in the Cloud Shell).
    ![Service Running Locally](./screenshots/run_microsevice.PNG)
@@ -80,8 +80,8 @@ https://docs.google.com/spreadsheets/d/1qpCGKQe1nXdEB18FjAw5xvyuGp2dEQqrv6jw8nJY
     2. Pick a name for your microservice.  This name will appear in the publicly available URL.
     3. Replace `<yourappname>` in `make_predict_azure_app.sh`
     4. Create the resource group and VM, upload the contents of the current directory and launch flask with `az webapp up`.  You will use the name for this command as well.  (here it's `udacity-flask-ml-service`)
-    ![App Service](./screenshots/create_flesk_page_1.png)
-    ![App Service](./screenshots/web_page.png)
+    ![App Service](./screenshots/create_flesk_page_1.PNG)
+    ![App Service](./screenshots/web_page.PNG)
 
    Check(list):**  `az webapp up` did quite a few things behind the scenes, so there are a few things to check for
     - The output contains the message `You can launch the app at ...`
@@ -95,7 +95,7 @@ https://docs.google.com/spreadsheets/d/1qpCGKQe1nXdEB18FjAw5xvyuGp2dEQqrv6jw8nJY
    az webapp log tail --resource-group miroslavpetkovic_rg_Linux_westeurope -n udacity-flask-ml-service-miroslavpetkovic
    ```
    Check:** Back in the main Cloud Shell, run `./make_predict_azure_app.sh`.  The request should be logged in the second Cloud Shell.
-   ![](./screenshots/web_logs)
+   ![](./screenshots/web_logs.PNG)
 
 ## Demo 
 
