@@ -58,6 +58,9 @@ https://docs.google.com/spreadsheets/d/1qpCGKQe1nXdEB18FjAw5xvyuGp2dEQqrv6jw8nJY
   3. Push the changes to Github - navigate back to your repo , then select Actions again and the github workflow should now appear - click on it and select the yml file.
   4. Then click on 'build' and this should run to verify the lint and test steps pass.
     ![pythonapp_build](./screenshots/pythonapp_build.PNG)
+    
+   #### Continuous Delivery - Azure Pipelines & Azure App Service
+    
     2. Get the code.
     1. In GitHub, [fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) [this repository.](https://github.com/PaulNWms/udacity-cicd-pipeline)
     2. Click Code | SSH, then click the clipboard icon to copy your repo's SSH path.
