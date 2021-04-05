@@ -118,6 +118,44 @@ https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/blob/main/project-manag
    Check:** Back in the main Cloud Shell, run `./make_predict_azure_app.sh`.  The request should be logged in the second Cloud Shell.
    ![link](./screenshots/web_logs.PNG)
    
+   ##### Configure Azure pipelines
+
+  Azure piplelines automate the deployment process. 
+  It is required to make a connection between Azure pipelines and GitHub.
+
+  * Sign in to [Azure DecOps](https://dev.azure.com/)
+  * Select "Create project"
+  * From the new project page, select Project settings from the left navigation
+  * On the Project Settings page, select Pipelines > Service connections, then select New service connection, and then select Azure Resource Manager from the dropdown
+  * In the "Add an Azure Resource Manager service connection" dialog box 
+      * Enter a connection name
+      * Scope level: Subscription
+      * Select a resource group 
+      * Check "Allow all pipelines to use this connection
+  * From your project page left navigation, select Pipelines
+  * Select New pipeline
+  * Select GitHub
+  * Select the repository that contains your app
+  * You may be redirected to GitHub. Click "Approve and Install"
+  * In the Configure your pipeline screen", select "Python to Linux Web App on Azure"
+  * On the top left of the screen, select your subscription and on the bottom right click "Continue"
+  * Select your web app name in the dropdown box, click "Validate and Configure"
+  * Click "Save and run"
+  * Click "Save and run" 
+
+  ![Pipeline](./Screenshots/pipeline.png)
+
+  Now the pipeline is ready. Each time you update your repository, the pipeline will automatically pull the new version, it will try to build the application and if the build is successfull it will deploy it.
+
+  If you click on a pipeline you will see the commit history and an indicator if it was built and deployed sucessfully.
+  ![Pipeline build and deploy history](Screenshots/PipelineHistory.png)
+
+  Then you can click on a commit and the build and deploy summary of this commit will be displayed:
+  ![Pipeline commit summary](Screenshots/PipelineRunSummary.png)
+
+  You can also click on the build stage or deploy app to get detaile dstatus. It is useful for debugging in order to pinpoint a problem.
+  ![Passing Azure pipelines testing](./Screenshots/AzurePassTests.png)
+   
    #### Load test an application using Locust (swarm the target website from localhost)
 
 
