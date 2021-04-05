@@ -94,12 +94,14 @@ https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/blob/main/project-manag
     2. Pick a name for your microservice.  This name will appear in the publicly available URL.
     3. Replace `<yourappname>` in `make_predict_azure_app.sh`
     4. Create the resource group and VM, upload the contents of the current directory and launch flask with `az webapp up`.  You will use the name for this command as well.  (here it's `udacity-flask-ml-service`)
-    
+   
+   Deploy, run and test the microservice:
    ![App Service](./screenshots/create_flesk_page_1.PNG)
     
-    
+   Access to the created web page:
    ![App Service](./screenshots/web_page.PNG)
-    
+   
+   Overwiew of App Service at Microsft Azure Portal:
    ![App Service](./screenshots/app_service_overview.png)
 
    Check(list):**  `az webapp up` did quite a few things behind the scenes, so there are a few things to check for
