@@ -143,18 +143,26 @@ https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/blob/main/project-manag
   * Click "Save and run"
   * Click "Save and run" 
   
+  Create project - step 1
      ![](./screenshots/1.PNG)
      
+  Create project - step 2
      ![](./screenshots/2.PNG)
      
+   Create project - step 3
      ![](./screenshots/3.PNG)
      
-     ![](./screenshots/pipeline1.PNG)
+   Creating of New pipeline was described above.
      
-     ![](./screenshots/pipeline2.PNG)
+   After finishing configuration of deployment process status is following (finishing can take a lot of time):
+   ![](./screenshots/pipeline1.PNG)
      
-     ![](./screenshots/pipeline3.PNG)
+   ![](./screenshots/pipeline2.PNG)
      
+   ![](./screenshots/pipeline3.PNG)
+     
+   Created azure-pipelines.yml file:
+   
      ![](./screenshots/pipeline4.PNG)
 
    
