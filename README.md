@@ -108,7 +108,21 @@ https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/blob/main/project-manag
      ![](./screenshots/locust_2.PNG)
      
      ![](./screenshots/locust_3.PNG)
-     
+
+## Architecture Diagram
+
+
+## Enhancements
+
+This is a basic Azure DevOps project that demonstrates a CI/CD pipeline for testing and deploying a Machine Learning application.
+
+Additional features should be taken into account in a commercial application,such as:
+
+* Separate development and production environment
+* Restricted permissions for the developers and the DevOps engineers.
+* More tests
+* Fault tolerant design
+* Use a faster VM for the web app
 
 
 ## Demo 
