@@ -36,15 +36,15 @@ jobs:
         ls -la
     - name: Install dependencies
       run: |
-        cd "azure_CI_CD_pipeline/flask-sklearn"
+        cd "/azure_CI_CD_pipeline/flask-sklearn"
         make install
       
     - name: Lint with pylint
       run: |
-        cd "azure_CI_CD_pipeline/flask-sklearn"
+        cd "/azure_CI_CD_pipeline/flask-sklearn"
         make lint
       
     - name: Test with pytest
       run: |
-        cd "azure_CI_CD_pipeline/flask-sklearn"
+        cd "/azure_CI_CD_pipeline/flask-sklearn"
         make test
