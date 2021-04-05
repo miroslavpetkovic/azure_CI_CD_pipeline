@@ -59,7 +59,9 @@ https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/blob/main/project-manag
   4. Then click on 'build' and this should run to verify the lint and test steps pass.
     ![pythonapp_build](./screenshots/pythonapp_build.PNG)
     
-   [![Azure Pipelines Build Status](https://udacity-reviews-uploads.s3.us-west-2.amazonaws.com/_attachments/96623/1617603734/github-actions.png)
+   ![Azure Pipelines Build Status](https://udacity-reviews-uploads.s3.us-west-2.amazonaws.com/_attachments/96623/1617603734/github-actions.png)
+   
+   
     
    #### Continuous Delivery - Azure Pipelines & Azure App Service
 
