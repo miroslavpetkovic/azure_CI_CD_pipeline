@@ -145,14 +145,14 @@ Additional features should be taken into account in a commercial application,suc
  [YouTube video](https://youtu.be/gyZZhMOUzdo).
  
  Content of demo:
- 00:00 Overwiew and goals of project
- 00:56 Create the Python Virtual Environment
- 01:01 Clone of project in github
- 01:23 Local Test - make all
- 01:38 Show passing of GitHub Actions by using of pythonapp.yml
- 02:54 Build the project - Azure App Services - preparation steps
- 03:36 Run the microservice 'locally' 
- 04:09 Deploy, run and test the microservice in Azure App Services
- 04:29 Overwiew of App Service at Microsft Azure Portal
+ * 00:00 Overwiew and goals of project
+ * 00:56 Create the Python Virtual Environment
+ * 01:01 Clone of project in github
+ * 01:23 Local Test - make all
+ * 01:38 Show passing of GitHub Actions by using of pythonapp.yml
+ * 02:54 Build the project - Azure App Services - preparation steps
+ * 03:36 Run the microservice 'locally' 
+ * 04:09 Deploy, run and test the microservice in Azure App Services
+ * 04:29 Overwiew of App Service at Microsft Azure Portal
      
  
