@@ -57,11 +57,17 @@ https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/blob/main/project-manag
   2. This creates a yml code which you can edit yourself
   3. Push the changes to Github - navigate back to your repo , then select Actions again and the github workflow should now appear - click on it and select the yml file.
   4. Then click on 'build' and this should run to verify the lint and test steps pass.
-   ![pythonapp_build](./screenshots/pythonapp_build.PNG)
-    
+
+  Content of pythonapp.yml file:
    ![pythonapp.yml](./screenshots/pythonapp.yml.PNG)
     
+  Successful Continuous Integration:
    ![pythonapp2.yml](./screenshots/pythonapp2.yml.PNG)
+   
+  Successful Continuous Integration:
+   ![pythonapp_build](./screenshots/pythonapp_build.PNG)
+    
+
    
    ![Azure Pipelines Build Status](https://udacity-reviews-uploads.s3.us-west-2.amazonaws.com/_attachments/96623/1617603734/github-actions.png)
    
