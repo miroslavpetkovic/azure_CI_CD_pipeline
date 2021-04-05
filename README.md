@@ -95,12 +95,12 @@ https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/blob/main/project-manag
     3. Replace `<yourappname>` in `make_predict_azure_app.sh`
     4. Create the resource group and VM, upload the contents of the current directory and launch flask with `az webapp up`.  You will use the name for this command as well.  (here it's `udacity-flask-ml-service`)
     
-    ![App Service](./screenshots/create_flesk_page_1.PNG)
+   ![App Service](./screenshots/create_flesk_page_1.PNG)
     
     
-    ![App Service](./screenshots/web_page.PNG)
+   ![App Service](./screenshots/web_page.PNG)
     
-    ![app_service_overview](./screenshots/app_service_overview.PNG)
+   ![app_service_overview](./screenshots/app_service_overview.PNG)
 
    Check(list):**  `az webapp up` did quite a few things behind the scenes, so there are a few things to check for
     - The output contains the message `You can launch the app at ...`
