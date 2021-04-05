@@ -97,7 +97,7 @@ https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/blob/main/project-manag
    az webapp log tail --resource-group miroslavpetkovic_rg_Linux_westeurope -n udacity-flask-ml-service-miroslavpetkovic
    ```
    Check:** Back in the main Cloud Shell, run `./make_predict_azure_app.sh`.  The request should be logged in the second Cloud Shell.
-   ![](./screenshots/web_logs.PNG)
+   ![link](./screenshots/web_logs.PNG)
    
    #### Load test an application using Locust (swarm the target website from localhost)
 
