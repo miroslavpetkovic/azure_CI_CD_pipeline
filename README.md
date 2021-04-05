@@ -143,14 +143,17 @@ https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/blob/main/project-manag
   * Click "Save and run"
   * Click "Save and run" 
   
-  Create project - step 1
-     ![](./screenshots/1.PNG)
+    Create project - step 1
+  
+   ![](./screenshots/1.PNG)
      
-  Create project - step 2
-     ![](./screenshots/2.PNG)
+   Create project - step 2
+  
+   ![](./screenshots/2.PNG)
      
    Create project - step 3
-     ![](./screenshots/3.PNG)
+   
+   ![](./screenshots/3.PNG)
      
    Creating of New pipeline was described above.
      
@@ -163,7 +166,7 @@ https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/blob/main/project-manag
      
    Created azure-pipelines.yml file:
    
-     ![](./screenshots/pipeline4.PNG)
+   ![](./screenshots/pipeline4.PNG)
 
    
    #### Load test an application using Locust (swarm the target website from localhost)
