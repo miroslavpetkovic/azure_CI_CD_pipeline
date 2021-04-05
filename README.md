@@ -111,7 +111,7 @@ https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/blob/main/project-manag
 
 ## Architecture Diagram
 
-![project diagram](./screenshots/project_diagram.PNG)
+![project diagram](./screenshots/project_diagram.png)
 
 ## Enhancements
 
