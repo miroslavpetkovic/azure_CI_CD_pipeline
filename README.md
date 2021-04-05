@@ -142,15 +142,7 @@ https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/blob/main/project-manag
   * Select your web app name in the dropdown box, click "Validate and Configure"
   * Click "Save and run"
   * Click "Save and run" 
-   ![](./screenshots/locust1.PNG)
-
-   
-   #### Load test an application using Locust (swarm the target website from localhost)
-
-
-   - Running `pip install locust` to install `locust`
-   - Open browser and go to [http://localhost:8089/](http://localhost:8089/)
-    
+  
      ![](./screenshots/1.PNG)
      
      ![](./screenshots/2.PNG)
@@ -163,7 +155,21 @@ https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/blob/main/project-manag
      
      ![](./screenshots/pipeline3.PNG)
      
-      ![](./screenshots/pipeline4.PNG)
+     ![](./screenshots/pipeline4.PNG)
+
+   
+   #### Load test an application using Locust (swarm the target website from localhost)
+
+
+   - Running `pip install locust` to install `locust`
+   - Open browser and go to [http://localhost:8089/](http://localhost:8089/)
+     ![](./screenshots/locust1.PNG)
+     
+     ![](./screenshots/locust_2.PNG)
+     
+     ![](./screenshots/locust_3.PNG)
+    
+
 
 ## Architecture Diagram
 
