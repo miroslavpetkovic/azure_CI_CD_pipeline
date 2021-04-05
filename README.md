@@ -100,7 +100,7 @@ https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/blob/main/project-manag
     
    ![App Service](./screenshots/web_page.PNG)
     
-   ![app_service_overview](./screenshots/app_service_overview.PNG)
+   ![App Service](./screenshots/app_service_overview.PNG)
 
    Check(list):**  `az webapp up` did quite a few things behind the scenes, so there are a few things to check for
     - The output contains the message `You can launch the app at ...`
