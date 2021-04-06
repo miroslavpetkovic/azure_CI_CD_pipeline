@@ -143,30 +143,25 @@ https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/blob/main/project-manag
   * Click "Save and run"
   * Click "Save and run" 
   
-    Create project - step 1
-  
-   ![](./screenshots/1.PNG)
-     
-   Create project - step 2
-  
-   ![](./screenshots/2.PNG)
-     
-   Create project - step 3
-   
-   ![](./screenshots/3.PNG)
-     
    Creating of New pipeline was described above.
      
-   After finishing configuration of deployment process status is following (finishing can take a lot of time):
+Now the pipeline is ready. Each time you update your repository, the pipeline will automatically pull the new version, it will try to build the application and if the build is successfull it will deploy it.
+
+If you click on a pipeline you will see the commit history and an indicator if it was built and deployed sucessfully. 
    ![](./screenshots/pipeline1.PNG)
-     
+
+Then you can click on a commit and the build and deploy summary of this commit will be displayed: 
    ![](./screenshots/pipeline2.PNG)
-     
+
+You can also click on the build stage or deploy app to get detaile dstatus. It is useful for debugging in order to pinpoint a problem. 
    ![](./screenshots/pipeline3.PNG)
+   
+   
+   ![](./screenshots/pipeline5.PNG) 
      
    Created azure-pipelines.yml file:
    
-   ![](./screenshots/pipeline4.PNG)
+   ![](./screenshots/pipeline5.PNG)
 
    
    #### Load test an application using Locust (swarm the target website from localhost)
