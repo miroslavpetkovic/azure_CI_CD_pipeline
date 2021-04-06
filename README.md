@@ -151,9 +151,11 @@ If you click on a pipeline you will see the commit history and an indicator if i
   ![](./screenshots/pipeline1.PNG)
 
 Then you can click on a commit and the build and deploy summary of this commit will be displayed: 
-  ![](./screenshots/pipeline22.PNG)
+ 
+ ![](./screenshots/pipeline22.PNG)
 
 You can also click on the build stage or deploy app to get detaile dstatus. It is useful for debugging in order to pinpoint a problem. 
+  
   ![](./screenshots/pipeline33.PNG)
    
    
