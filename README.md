@@ -161,7 +161,7 @@ You can also click on the build stage or deploy app to get detaile dstatus. It i
      
    Created azure-pipelines.yml file:
    
-   ![](./screenshots/pipeline5.PNG)
+   ![](./screenshots/pipeline4.PNG)
 
    
    #### Load test an application using Locust (swarm the target website from localhost)
