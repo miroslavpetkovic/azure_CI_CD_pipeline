@@ -69,7 +69,7 @@ https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/blob/main/project-manag
     
 
    
-   ![Azure Pipelines Build Status](https://udacity-reviews-uploads.s3.us-west-2.amazonaws.com/_attachments/96623/1617603734/github-actions.png)
+   [![Python application test with Github Actions](https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/actions/workflows/pythonapp.yml)
    
    
     
