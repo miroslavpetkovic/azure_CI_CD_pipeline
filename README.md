@@ -148,13 +148,13 @@ https://github.com/miroslavpetkovic/azure_CI_CD_pipeline/blob/main/project-manag
 Now the pipeline is ready. Each time you update your repository, the pipeline will automatically pull the new version, it will try to build the application and if the build is successfull it will deploy it.
 
 If you click on a pipeline you will see the commit history and an indicator if it was built and deployed sucessfully. 
-   ![](./screenshots/pipeline1.PNG)
+  ![](./screenshots/pipeline1.PNG)
 
 Then you can click on a commit and the build and deploy summary of this commit will be displayed: 
-   ![](./screenshots/pipeline2.PNG)
+  ![](./screenshots/pipeline2.PNG)
 
 You can also click on the build stage or deploy app to get detaile dstatus. It is useful for debugging in order to pinpoint a problem. 
-   ![](./screenshots/pipeline3.PNG)
+  ![](./screenshots/pipeline3.PNG)
    
    
    ![](./screenshots/pipeline5.PNG) 
